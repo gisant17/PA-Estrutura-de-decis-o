@@ -1,0 +1,21 @@
+<html>
+    <script>
+var a,b,c,delta,x1,x2
+a=parseFloat(prompt("valor de a:"))
+b=parseFloat(prompt("Valor de b"))
+c=parseFloat(prompt("Valor de c"))
+delta=b*b-4*a*c;
+if (delta<0){
+    alert("não ha raizes")
+}
+else if (delta==0){
+    x1=-b/2*a;
+    alert("1 raiz="+x1)
+}
+else {
+    x1=(-b+Math.sqrt(delta))/2*a
+    x2=(-b-Math.sqrt(delta))/2*a
+    alert("x1"+x1+"/nx2="+x2)
+}
+</script>
+</html>
